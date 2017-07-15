@@ -1,4 +1,5 @@
-https://www.codingame.com/training/community/advanced-tree
+# [Advanced Tree](https://www.codingame.com/training/community/advanced-tree) 
+(The description below is copied from the source)
 
 Your goal is to recreate the behaviour of the UNIX tree program with support for some flags.
 You'll be given a starting path S, a list of flags F, and a list of files.
@@ -19,13 +20,13 @@ The input path S must be printed followed by the text [error opening dir] if:
 
 Finally, you'll need to print a new line plus the number of directories and files found as follows:
 
-x directories, y files
+**_x directories, y files_**
 
 where x is the number of directories and y is the number of files. If the -d option is in effect, that last line reads like this instead:
 
-x directories
+**_x directories_**
 
-If x or y are equal to 1, then you need to print directory and file respectively.
+If x or y are equal to 1, then you need to print **_directory_** and **_file_** respectively.
 
 The tree needs to be sorted in ascending alphabetical order, letters in lowercase having priority on uppercases and without considering the leading and first character '.' (dot) from hidden files or directories names.
 
